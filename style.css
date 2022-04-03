@@ -1,0 +1,342 @@
+/*header style*/
+#logo {
+    width: 268px;
+    height: 33px;
+     
+}
+.navigation {
+    position: sticky;
+}
+header {
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.navbar ul li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+#dep {
+    display: inline-block
+}
+.dep-menu {
+    display: none;
+    padding-top:10px;
+    position:absolute;
+    min-width:220px;
+    margin-left:-100px;
+    background:#fff
+}
+.dep-menu ul li{
+    display: block;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-left:-25px;
+
+}
+.dep-menu ul li a{
+    display: block;
+    text-decoration: none;
+    color:#747474;
+    line-height:120%;
+    padding:12px 16px;
+    }
+.dep-menu ul li a:hover {
+   background-color:#f6f8f8;
+    }
+
+.navbar ul li:hover .dep-menu {
+    display: block;
+    }
+.navbar ul li a{
+        text-decoration: none;
+        color: rgb(116, 116, 116);
+    }
+
+
+/*main style*/
+/*section1*/
+.section1 {
+    
+        padding: 30px;
+        margin: 10px;
+        display: block;
+        text-align: center;
+     
+}
+.para{
+    margin: 20px 20%;
+    display: flex;
+    justify-content: space-between;
+} 
+.section1 h1{
+    display: block;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 179, 155);
+}
+#logo_doc {
+    padding: 20px;  
+}
+.para p{
+    padding: 10px;
+    width: 500px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px; 
+    color: rgb(116, 116, 116);
+}
+/*section2*/
+.section2{
+    margin: 20px 10%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.main__container{
+    display: flex;
+    justify-content: space-between;
+}
+.main__container img{
+    height: 30px;
+    width: 30px;
+}
+.container1, .container2, .container3{
+    min-width: 300px;
+    min-height: 350px;
+    margin: 10px 10px 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    border-radius: 3%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container1{
+    background-color: #18D0B8;
+}
+.container2{
+    background-color: rgb(61,131,223);
+}
+.container3{
+    background-color: rgb(27,39,52);
+}
+.main__container div{
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-align: left;
+}
+
+/*section3*/
+.section3{
+    display: flex;
+    justify-content: center;
+    margin: 10px 10%;
+}
+
+.section3 h1{
+    width: 40%;
+    margin: 20px;
+    color: rgb(0, 179, 155);
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    text-align: left;
+}
+.section3 ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    font-size:0;
+    width:67%;
+}
+
+.section3 ul li{
+ font-size: 10px;
+ display:inline-block;
+ width:160px;
+ padding:5px 10px;
+}
+.section3 ul li a svg{
+    padding-right: 10px;
+    width: 135px;
+}
+.section3 ul li a{
+    text-decoration: none;
+    fill: rgb(116, 116, 116);
+}
+/*section 4*/
+.section4{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(-45deg,rgba(0, 204, 177, 0.178) 5%,rgba(61,199,223,.1));
+    height: 600px;
+}
+
+.first__group{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    height: 20%;
+    width: 30%;
+    text-align: left;
+}
+
+.first__group h1{
+    margin: 10px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 26px;
+    color:rgb(0, 179, 155);
+}
+
+.first__group p{
+    margin: 10px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: baseline;
+    letter-spacing: 0.6px;
+    color:rgb(116,116,116);
+}
+
+.second__group{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 600px;
+}
+
+.group1,.group2,.group3,.group4{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    box-sizing : border-box;
+    box-shadow : rgba(0, 0, 0, 0.05) 0px 1px 4px 0px;
+    height: 250px;
+    width: 230px;
+    background-color: white;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.group1{
+    margin-top: 30px;
+}
+
+.group4{
+    margin-top: -10px;
+}
+
+.second__group h3{
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: rgb(0, 179, 155);
+}
+
+.second__group p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    vertical-align: baseline;
+    letter-spacing: 0.6px;
+    color: rgb(116, 116, 116);
+}
+
+.second__group img{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    height: 32px;
+    width: 40px;
+}
+/*section 5*/
+.section5{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header__group{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    margin: 30px;
+    font-family: 'Roboto',sans-serif;
+}
+
+.header__group h1{
+    color: rgb(0, 179, 155);
+    font-weight: bold;
+    line-height: 39px;
+    font-size: 30px;
+    padding-left: 30%;
+    padding-right: 30%;
+    width: 40%;
+}
+
+.header__group p{
+    color: rgb(116, 116, 116);
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 14px;
+    padding-left: 30%;
+    padding-right: 30%;
+    width: 40%;
+}
+
+.bottom__group{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.office{
+    margin: 10px;
+    box-sizing: border-box;
+    box-shadow:  rgba(0, 0, 0, 0.15) 0px -2px 5px 0px;
+    border-radius: 5px;
+}
+
+.office a{
+    text-decoration: none;
+    padding: -10px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(116, 116, 116);
+    font-weight: 400;
+}
+
+.office img{
+    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn--small {
+    font-size:8px;
+    padding: 3px;
+}
+
+.office__desc{
+    display: flex;
+    height: 40px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.office:hover{
+    box-shadow:  rgba(0, 0, 0, 0.377) 0px -2px 15px 0px;
+}
+.footer{
+    text-align: center;
+}
